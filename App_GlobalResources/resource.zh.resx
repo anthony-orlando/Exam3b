@@ -123,6 +123,12 @@
   <data name="gender" xml:space="preserve">
     <value>我:</value>
   </data>
+  <data name="genderF" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="genderM" xml:space="preserve">
+    <value>男</value>
+  </data>
   <data name="language" xml:space="preserve">
     <value>请选择您的语言</value>
   </data>

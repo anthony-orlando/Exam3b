@@ -123,6 +123,12 @@
   <data name="gender" xml:space="preserve">
     <value>انا:</value>
   </data>
+  <data name="genderF" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="genderM" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
   <data name="language" xml:space="preserve">
     <value>الرجاء تحديد اللغة</value>
   </data>
