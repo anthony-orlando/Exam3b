@@ -6,12 +6,15 @@
 <head runat="server">
     <title>Exam 3b</title>
 </head>
-<body style="width: 885px; height:100%;">
+<body style="width: 885px; height:90%;width:100%;">
     <form id="form1" runat="server" style="height:100%;">
-    <div id="div1" style="float:right; width: 605px; height:100%; border-left-style:solid; border-left-color:black; padding-left:10px; margin-left: 0px;">
-     
-
+    <h1 style="text-align:center;border-bottom:solid;border-bottom-color:black;margin:0px;padding:0px;">
+        <asp:Label ID="lbl_header1" runat="server" Text="<%$ Resources:resource, welcome %>" ></asp:Label>
         <br />
+        <asp:Label ID="lbl_header2" runat="server" Text="<%$ Resources:resource, course %>"></asp:Label>
+    </h1>
+    <div id="div1" style="float:right; width: 1000px; height:100%; border-left-style:solid; border-left-color:black; padding-left:10px; margin: 0px;">
+       <br />
         <asp:Label ID="lbl_name" runat="server" Text="<%$ Resources:resource, name %>"  ></asp:Label> <asp:TextBox ID="tb_name" runat="server"></asp:TextBox>
         <asp:Label ID="lbl_nameR" runat="server"></asp:Label>
         <br /><br /><br />
@@ -33,7 +36,7 @@
        
        
     </div>
-    <div style="width: 260px; height:100%; margin-top: 121px; float:left;">
+    <div style="width: 200px; height:100%;margin-top:121px; float:left;">
         <asp:Label ID="lbl_language" runat="server" Text="<%$ Resources:resource, language %>"  Width="185px" ></asp:Label>
         <br /><br />
         <asp:DropDownList ID="language" runat="server" Height="30px" Width="185px" AutoPostBack="true" >

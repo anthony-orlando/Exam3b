@@ -141,4 +141,10 @@
   <data name="submit" xml:space="preserve">
     <value>提交</value>
   </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>欢迎光临 MSCI 3300</value>
+  </data>
+  <data name="course" xml:space="preserve">
+    <value>软件设计与开发</value>
+  </data>
 </root>

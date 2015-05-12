@@ -24,7 +24,7 @@ Partial Class _Default
             lbl_nameR.Text = name
         End If
         If tb_earn.Text <> "" Then
-            Dim earn As Decimal = tb_earn.Text
+            Dim earn As Decimal = Val(tb_earn.Text)
             lbl_earnR.Text = String.Format("{0:c}", earn)
         End If
         If Calendar1.SelectedDate <> Nothing Then
